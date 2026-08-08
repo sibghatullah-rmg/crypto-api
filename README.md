@@ -79,4 +79,4 @@ Or run `docker build -t vetty-api .` followed by `docker run --env-file .env -p 
 
 ## Design notes
 
-The cache is intentionally process-local, as requested. For multi-replica production deployment, replace it with a shared cache such as Redis to retain cache coherence. CoinGecko's `/ping` response does not reliably publish a service version; the API reports it when upstream supplies one, otherwise `null`.
+The cache is intentionally process-local, as requested. For multi-replica production deployment, replace it with a shared cache such as Redis to retain cache coherence. CoinGecko's `/ping` response does not reliably publish a service version; the API reports it when upstream supplies one, otherwise `null`. 
