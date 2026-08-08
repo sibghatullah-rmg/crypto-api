@@ -1,0 +1,1 @@
+"""Vetty cryptocurrency market API."""
